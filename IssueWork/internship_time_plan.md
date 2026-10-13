@@ -33,7 +33,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>09:00</b></td>
       <td style="background-color: #d4edda; color: #155724;">Set Up Focus Bear</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
       <td style="background-color: #d4edda; color: #155724;">Issue 6</td>
       <td style="background-color: #d1ecf1; color: #0c5460;">Issue 9</td>
       <td style="background-color: #d4edda; color: #155724;">Issue 10</td>
@@ -41,7 +41,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>10:00</b></td>
       <td style="background-color: #d4edda; color: #155724;">Set Up Focus Bear</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
       <td style="background-color: #d4edda; color: #155724;">Issue 6</td>
       <td style="background-color: #d1ecf1; color: #0c5460;">Issue 9</td>
       <td style="background-color: #f8d7da; color: #721c24;">Doctor Appointment</td>
@@ -49,7 +49,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>11:00</b></td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Issue 1</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
       <td style="background-color: #d4edda; color: #155724;">Issue 6</td>
       <td style="background-color: #ffe8cc; color: #a64d00;">Issue 8</td>
       <td style="background-color: #d4edda; color: #155724;">Issue 10</td>
@@ -73,7 +73,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>14:00</b></td>
       <td style="background-color: #cce5ff; color: #004085;">Issue 4 & 3</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Issue 7</td>
       <td style="background-color: #ffe8cc; color: #a64d00;">Issue 8</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Issue 11</td>
@@ -81,7 +81,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>15:00</b></td>
       <td style="background-color: #fce4ec; color: #c2185b;">Son is Home</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 2</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Issue 7</td>
       <td style="background-color: #fce4ec; color: #c2185b;">Head Home</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Issue 11</td>
@@ -137,7 +137,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>09:00</b></td>
       <td style="background-color: #d4edda; color: #155724;">Issue 12</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
       <td style="background-color: #cce5ff; color: #004085;">Issue 15</td>
       <td style="background-color: #d1ecf1; color: #0c5460;">In-person Time</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Catch Up Time</td>
@@ -145,7 +145,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>10:00</b></td>
       <td style="background-color: #d4edda; color: #155724;">Issue 12</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
       <td style="background-color: #cce5ff; color: #004085;">Issue 15</td>
       <td style="background-color: #d1ecf1; color: #0c5460;">In-person Time</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Catch Up Time</td>
@@ -153,7 +153,7 @@ This is my plan for the next 6 weeks. Obviously, I have not considered time take
     <tr>
       <td><b>11:00</b></td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Catch Up Time</td>
-      <<td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
+      <td style="background-color: #fff3cd; color: #856404;">Issue 13</td>
       <td style="background-color: #cce5ff; color: #004085;">Issue 15</td>
       <td style="background-color: #d1ecf1; color: #0c5460;">In-person Time</td>
       <td style="background-color: #e2d9f3; color: #381a6c;">Catch Up Time</td>
