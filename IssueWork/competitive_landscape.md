@@ -2,16 +2,17 @@
 
 **Student ID:** s214527809  
 **Email:** s214527809@deakin.edu.au  
+**Intern Position:** Usability Tester & Bug Hunter  
 **Focus Bear Account:** paul_dal_pozzo@hotmail.com  
 **GitHub Repo:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/competitive_landscape.md
 
 # Issue 7
 ## Reflection
 **What makes Focus Bear different from these apps?**  
-Focus Bear covers most of the other apps features put together. There are a few features that Focus Bear doesn't have but they are minor. Focus Bear is the only one that has microbreaks. I think they are a good feature. They have been helping me get out of my flow and remember the simple tasks like drinking water and bathroom breaks.
+Focus Bear covers most of the other apps features put together. There are a few features that Focus Bear doesn't have but they are minor. Focus Bear is the only one that has micro breaks. I think they are a good feature. They have been helping me get out of my flow and remember the simple tasks like drinking water and bathroom breaks.
 
 **If you were a user, why would you choose Focus Bear over competitors?**  
-It is a hard choice. I prefer the colour scheme of Cold Turkey and Tiimo. From the information on the website alone, I would probably try Cold Turkey first. The weekly schedule is probably the biggest feature that interested me the most. I want to plan my day/week, I want to set a rough guide for the distraction blocking. I know that I will wake up around 7am. I will usually help get my son ready for school and be ready to work by 920am. Then I know that I should take a lunch break, but usualy get so into the flow of work that I forget to this. This I know I should clock off at a certain time and that time might be different for each day of the week because of my sons pick up from school. But I know that 4pm I need to be at the bus stop on Thursday and Fridays (at least while school is happening). I know that my son should be in be by 8pm and that he needs his routine of supper, maybe a bath, toilet time and changing into his PJs. Then after that I usually go to bed, but I feel like it is wasted time because I don't sleep until 11pm. Maybe I could have something remind me to squeeze in an exercise or something.
+It is a hard choice. I prefer the colour scheme of Cold Turkey and Tiimo. From the information on the website alone, I would probably try Cold Turkey first. The weekly schedule is probably the biggest feature that interested me the most. I want to plan my day/week, I want to set a rough guide for the distraction blocking. I know that I will wake up around 7am. I will usually help get my son ready for school and be ready to work by 920am. Then I know that I should take a lunch break, but usually get so into the flow of work that I forget to this. This I know I should clock off at a certain time and that time might be different for each day of the week because of my sons pick up from school. But I know that 4pm I need to be at the bus stop on Thursday and Fridays (at least while school is happening). I know that my son should be in be by 8pm and that he needs his routine of supper, maybe a bath, toilet time and changing into his PJs. Then after that I usually go to bed, but I feel like it is wasted time because I don't sleep until 11pm. Maybe I could have something remind me to squeeze in an exercise or something.
 
 But, I like the comfortable visuals and time tracking of Tiimo. The widgets make sense and would help me if I wasn't at the PC, like on weekends.
 
@@ -25,14 +26,14 @@ But then I like the AI integration of Routinery. I think talking to the device i
 
 **Based on your research, what’s one improvement you think Focus Bear could make?**  
 I think there are many ways Focus Bear can be improved
-- **Colour Scheme** - All I have seen is orange and white. I like dark mode on my apps. I think bright colours cause more activiness in the mind. I like the bear idea of the app, I would hate the app to be brown, but orange is too active, the colour scheme should be calmer and in the purple/blue/green area.
+- **Colour Scheme** - All I have seen is orange and white. I like dark mode on my apps. I think bright colours cause more activeness in the mind. I like the bear idea of the app, I would hate the app to be brown, but orange is too active, the colour scheme should be calmer and in the purple/blue/green area.
 - **Weekly Schedule** - This feature is present in Cold Turkey. I mention above how I personally would benefit from it
 - **Work Flow** - The way the app flows from feature to feature needs improvement. I see all these great features in Focus Bear but I feel like they don't 100% work well with each other or are not 100% connected. I noticed that putting a time frame into a task doesn't carry over to the daily planner, which is weird, I have to set the time twice, why?
 - **No Record** - When going back through the days, the daily planner doesn't show me what I worked on or for how long. It doesn't show me my breaks.
-- **More Flexible Breaks** - The microbreaks are good. For some reason, my last habit (drink water) doesn't ever happen during the microbreak. But also, the order is always the same and the habits are all 'must do'. Allow me to select the habits I want to perform during that break. Maybe I want to make a coffee, maybe I have a load of laundry I want to check on and hang out, maybe I want to do deep breathing for 2 minutes instead of the 30 seconds. Also, the train of thought comment I add before the microbreak is not shown to me after the break, what is the point of it?
+- **More Flexible Breaks** - The micro breaks are good. For some reason, my last habit (drink water) doesn't ever happen during the micro break. But also, the order is always the same and the habits are all 'must do'. Allow me to select the habits I want to perform during that break. Maybe I want to make a coffee, maybe I have a load of laundry I want to check on and hang out, maybe I want to do deep breathing for 2 minutes instead of the 30 seconds. Also, the train of thought comment I add before the micro break is not shown to me after the break, what is the point of it?
 - **Distraction Graphs** - This is a feature in Cold Turkey that I think will help users of Focus Bear a lot. The best way to fight bad habits is to understand them. Seeing how often they distract you and for how long is a great way for the user to fight the habit, but also see improvement over time.
 - **Improvements Over Time** - Nothing in Focus Bear shows me how I have improved or how often I am trying to participate in the good habits.
-- **More Understanding of the User** - This is hard because it would be a per person basis. You could use AI to track the users workflow during the first week of use and give suggestions on how to improve themselves. I think one of the issues with these apps is that you don't have any detials on how unfocused you are before you use them. This might mean that you need to track more user data and offer a longer trial time. If the first week is used to analyze the user, the second week should be used to help the user navigation around the bad habits.
+- **More Understanding of the User** - This is hard because it would be a per person basis. You could use AI to track the users workflow during the first week of use and give suggestions on how to improve themselves. I think one of the issues with these apps is that you don't have any details on how unfocused you are before you use them. This might mean that you need to track more user data and offer a longer trial time. If the first week is used to analyze the user, the second week should be used to help the user navigation around the bad habits.
 
 ## Research Breakdown
 ### Freedom
@@ -42,7 +43,7 @@ I think there are many ways Focus Bear can be improved
 - advance scheduling
 - focus music
 - lock modes
-- blocklists
+- block lists
 - freedom perks - im assuming it grants discounts to places and websites
 - not focused on ADHD - more general use
 - based of research
@@ -54,7 +55,7 @@ I think there are many ways Focus Bear can be improved
 - no mention of breaks
 
 ### Cold Turkey
-- blocklists
+- block lists
 - set schedules
 - can plan the whole week into sessions
 - colour scheme is green and dark grey - more my style
@@ -62,14 +63,14 @@ I think there are many ways Focus Bear can be improved
 - it can block adult websites
 - blocks searches and keywords
 - you can spend real world $ to pause a block - that money is donated to wwf
-- the weekly schedule is the biggest advantage this app has - you can plan a week ahead of time and even have more general blocklists for each time
+- the weekly schedule is the biggest advantage this app has - you can plan a week ahead of time and even have more general block lists for each time
 - there is an option to restart your computer to unlock the block - very hectic unblocking technique
 - has breaks - mentions pomodoro breaks
 - tracks top distractions and graphs them
 - autostart blocks based on conditions - this is good for work hours where the day of work might be dynamic but you know that some distractions are not good
 - handles shared computers - niche idea, but might be good for parental control over kids devices
 - blocks you from changing the time and date settings on the computer to 'finish' a sessions
-- command line interface - not sure why this is needed - automation and AI compatability?
+- command line interface - not sure why this is needed - automation and AI compatibility?
 - payment - free - $59.00/lifetime
 - Also has micromanager and writer apps - work with similar ideas of blocking and allowing apps/sites
 - naming is cold - no emotion - no real meaning
