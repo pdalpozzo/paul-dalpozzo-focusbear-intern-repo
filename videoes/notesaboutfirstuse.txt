@@ -22,3 +22,13 @@ morning work block does not appear in the daily view, it should show me.
 getting a message about overlapping but not seeing how or what it overlaps with - this is why a weekly schedule planner would be nice. something like what i did for one of the issues or what cold turkey shows
 
 sign up and log in pages are exactly the same - why not just assume if the email is existing and the password is correct that the user is trying to log in?
+
+enable focus bear time tracker - is this the feature tht i think it is? will this allow me to see my bad habits and time spent doing things? why isn't it mentioned anywhere? why isnt it in graph format?
+
+tab audit - i removed this from my pc app, but it appears when i log in on the laptop
+tab audit is a cool idea, but no normal user will know what urls to csv is, they will never click it, it is too uninviting
+
+there should be a focus session that gives a tutorial through the whole app or maybe one feature at a time. it should be easy to click and should be able to be viewed however many times the user wants.
+
+the stats page needs to be more accessible and presentable it has a lot of good information
+habit stats is really good, i like the bars - but i have drink water at 75% in most consistent habit and drink water at 0% in least consistent habit - are they at different times? should the habit be consolidated? maybe the habit should only be added once and then added to breaks and routines so that the data stays in the correxct places.
