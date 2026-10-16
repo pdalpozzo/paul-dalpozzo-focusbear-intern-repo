@@ -4,7 +4,7 @@
 **Email:** s214527809@deakin.edu.au  
 **Intern Position:** Usability Tester & Bug Hunter  
 **Focus Bear Account:** paul_dal_pozzo@hotmail.com  
-**GitHub Repo:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/learning_goals.md
+**Markdown Location:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/learning_goals.md
 
 # Issue 6
 ## Reflection

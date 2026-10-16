@@ -4,7 +4,7 @@
 **Email:** s214527809@deakin.edu.au  
 **Intern Position:** Usability Tester & Bug Hunter  
 **Focus Bear Account:** paul_dal_pozzo@hotmail.com  
-**GitHub Repo:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/competitive_landscape.md
+**Markdown Location:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/competitive_landscape.md
 
 # Issue 7
 ## Reflection
