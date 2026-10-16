@@ -4,7 +4,7 @@
 **Email:** s214527809@deakin.edu.au  
 **Intern Position:** Usability Tester & Bug Hunter  
 **Focus Bear Account:** paul_dal_pozzo@hotmail.com  
-**Markdown Location:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/User-Manual-[Paul Dal Pozzo].md
+**Markdown Location:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/User-Manual-[PaulDalPozzo].md
 
 # Issue 11 - User Manual for Paul Dal Pozzo
 I don't expect people to fully understand me just from this one document. People are more complex than that. Nor do I expect people to follow all of these tips when communicating with me. In general, I am a pretty 'go with the flow' kind of person. But I take my work seriously. I want to do my best, and I want people to let me know when my work has fallen short of expectations. I cannot improve if I am never told about my flaws.  
