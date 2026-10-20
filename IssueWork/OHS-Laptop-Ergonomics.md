@@ -18,7 +18,7 @@ Laptops are designed for short term and mobile use. They do not fit into a 'work
 - **Chair** - being a mobile device, people often overlook the importance of their sitting position - it can cause lower back, elbow, and leg issues
 
 ### What ergonomic equipment can improve posture when working on a laptop? (e.g., laptop stands, external keyboards, ergonomic chairs)
-- **Laptop Stands** - this stand will elevate the laptop (and its screen) to an approapriate eye level
+- **Laptop Stands** - this stand will elevate the laptop (and its screen) to an appropriate eye level
 - **External Monitor** - this is an alternate solution to keeping your main screen at eye level
 - **External Keyboard & Mouse** - using an external keyboard will provide better placement of your wrists and reduce strain on arms, wrists and fingers
 - **Ergonomic Chair** - a good ergonomic chair will help your posture and reduce strain on your back. It will also help your elbows to be in a good position
