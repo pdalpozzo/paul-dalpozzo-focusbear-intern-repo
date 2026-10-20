@@ -8,23 +8,23 @@
 
 # Issue 7
 ## Reflection
-**What makes Focus Bear different from these apps?**  
+### What makes Focus Bear different from these apps?  
 Focus Bear covers most of the other apps features put together. There are a few features that Focus Bear doesn't have but they are minor. Focus Bear is the only one that has micro breaks. I think they are a good feature. They have been helping me get out of my flow and remember the simple tasks like drinking water and bathroom breaks.
 
-**If you were a user, why would you choose Focus Bear over competitors?**  
+### If you were a user, why would you choose Focus Bear over competitors?  
 It is a hard choice. I prefer the colour scheme of Cold Turkey and Tiimo. From the information on the website alone, I would probably try Cold Turkey first. The weekly schedule is probably the biggest feature that interested me the most. I want to plan my day/week, I want to set a rough guide for the distraction blocking. I know that I will wake up around 7am. I will usually help get my son ready for school and be ready to work by 920am. Then I know that I should take a lunch break, but usually get so into the flow of work that I forget to this. This I know I should clock off at a certain time and that time might be different for each day of the week because of my sons pick up from school. But I know that 4pm I need to be at the bus stop on Thursday and Fridays (at least while school is happening). I know that my son should be in be by 8pm and that he needs his routine of supper, maybe a bath, toilet time and changing into his PJs. Then after that I usually go to bed, but I feel like it is wasted time because I don't sleep until 11pm. Maybe I could have something remind me to squeeze in an exercise or something.
 
 But, I like the comfortable visuals and time tracking of Tiimo. The widgets make sense and would help me if I wasn't at the PC, like on weekends.
 
 But then I like the AI integration of Routinery. I think talking to the device is the next big phase of apps. Giving AI verbal instructions to allow the user to avoid the tediousness of setting things up. I know Focus Bear has some AI functionality, but I have yet to use it because I am at the PC and using the desktop app. I think verbal commands are more of a device thing.
 
-**What’s one feature that other apps have that Focus Bear doesn’t?**  
+### What’s one feature that other apps have that Focus Bear doesn’t?  
 - **Freedom** - perks with partners  
 - **Cold Turkey** - daily/weekly block scheduling  
 - **Tiimo** - widgets (maybe, I haven't used Focus Bear on my mobile yet)  
 - **Routinery** - heavy AI integration
 
-**Based on your research, what’s one improvement you think Focus Bear could make?**  
+### Based on your research, what’s one improvement you think Focus Bear could make?  
 I think there are many ways Focus Bear can be improved
 - **Colour Scheme** - All I have seen is orange and white. I like dark mode on my apps. I think bright colours cause more activeness in the mind. I like the bear idea of the app, I would hate the app to be brown, but orange is too active, the colour scheme should be calmer and in the purple/blue/green area.
 - **Weekly Schedule** - This feature is present in Cold Turkey. I mention above how I personally would benefit from it
