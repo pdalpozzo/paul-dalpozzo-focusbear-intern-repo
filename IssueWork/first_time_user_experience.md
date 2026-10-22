@@ -10,46 +10,79 @@
 
 Below are some points of feedback that I have from the initial experience of using Focus Bear.
 
-### Blocking Websites
-**Suggestion**
-I followed the setup wizard and was doing the step where I need to add websites to the block list. My natual instinct was that I would be able to select some bookmarks from my default browser. I am not going to remember the sites that distract me most, but I would definitely have them bookmarked for easy access. 
+## Blocking Websites
+### Suggestion
+I followed the setup wizard and was doing the step where I need to add websites to the block list. My natural instinct was that I would be able to select some bookmarks from my default browser. I am not going to remember the sites that distract me most, but I would definitely have them bookmarked for easy access.
 
-**What is this trying to solve?**
+### What is this trying to solve?
 iIt will help smooth out the difficulty of adding websites to block. I personally avoided it because I knew I had a lot to block if I did it right. Most web browsers have the ability to export the bookmarks, so maybe Focus Bear can get that and show a list or folders where the user can select things to block.
 
 Something similar already exists with the application blocking. It seems to list applications that appear in the control panel installed list. 
 
-### Decorative Image covered the frame
-**Issue**
+### Screenshot
+This image is not from the wizard because I lost that screenshot. But this issue appears in the PC version. And it has an added issue of allowing users to enter random words as a website. I mean, the app could be using it as a keyword, but everything frames it as a website.
+![](Issue8Images\blockingwebsite-issues.png)
+
+## Decorative Image covered the frame
+### Issue
 I was on the page 'Which apps do you want to block' and the bear image was coming from the right side of the window. The speech bubble from the bear was reaching the frame of where my focus was. I thought it could be hiding a button. 
 
-**Cause**
-This was caused by the size of the window. As I maade the window larger, I saw that the speech bubble was no longer covering the frame. It was not covering any user interaction options, but it still gave me that feeling that it could be.
+### Cause
+This was caused by the size of the window. As I made the window larger, I saw that the speech bubble was no longer covering the frame. It was not covering any user interaction options, but it still gave me that feeling that it could be.
 
-**Possible Solution**
+### Possible Solution
 Allow the user to move the bear image, or do more testing for where things are placed when the window is at its minimum size
 
-### The Bear
-**Suggestion**
+### Screenshot
+Again, I lost that screenshot.
+
+## The Bear
+### Suggestion
 I think the bear mascot is cool. He should be more interactive. Maybe clicking on him multiple times quickly could play a short animation. Maybe let the user pat his head. Maybe let a click remove the speech bubbles. You can teach the user this interaction during the set up wizard. The wizard could start off with the bear looking at a computer screen and the user is told to 'Poke the bear' to get his attention. Then this plays into the whole story of the bear and the user helping each other with focus.
 
-**What is this trying to solve?**
-The mascot idea is already trying to get a rapro with the user and appear as a friend. Making it interactive will build that relationship and connection. I don't think this idea solves anything, but it just makes the app more friendly and less 'focus on structure'.
+### What is this trying to solve?
+The mascot idea is already trying to get a rapport with the user and appear as a friend. Making it interactive will build that relationship and connection. I don't think this idea solves anything, but it just makes the app more friendly and less 'focus on structure'.
 
-### Hidden Feature - Setting up block sessions and seeing them on day view
+### Notes
+I have since installed the app on my phone and the bear is much more animated and interactive. This is what I imagined.
+
+## Hidden Feature - Setting up block sessions and seeing them on day view
 This is really two things; Showing Block Sessions on the Day View and Setting Up Block Sessions
 
-**Issue**
-During the setup, the 'Set Block Deatils' page appeared. I had never seen it before because I skipped the setup on my first install. This is a feature that I had been looking for. So I spent some time setting up some blocks.
+### Issue
+During the setup, the 'Set Block Details' page appeared. I had never seen it before because I skipped the setup on my first install. This is a feature that I had been looking for. So I spent some time setting up some blocks.
 I set up a 'Morning Work' block. I expected it to appear in the day plan, but it wasn't there.
 I set up an 'Afternoon Work' block. I have to set up different time blocks for different days. Monday and Wednesday I have to pick up my son from school, so my work day ends around 2:30pm. Tuesday my son is at my in-laws and I can work until 5:30pm to 6:00pm. Thursday and Friday I have to pick up my son from the bus stop and the bus comes at 4:10pm. As I was setting up these blocks, I was getting told that the blocks have overlapping schedules. 
 
-**Cause**
+### Cause
 I assume the cause is from the day plan not really understanding which day it is allocated.
 
-**Suggestion**
+### Suggestion
 Show the user a full week of planning slots. I saw this feature in the Cold Turkey Blocker research. Most people roughly know how their week is going to be planned out. It makes sense to allow them to allocate blocks for these times. Also, show these blocks in the day view. Show them at a scale where you can show time progressing. Not to add pressure, but to make the user aware of how much of the allocated time has been used. 
 To clarify, I am not suggesting these blocks to be sessions. Just predictive blocks. Most people know their work hours and can plan ahead. But then during those blocks, the user can start a focus session and the block/allow lists will automatically apply unless specified otherwise.
+
+something like I did for the [internship time plan](https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/internship_time_plan.md) (Issue 2) OR below
+
+![](Issue8Images\coldturkeydaily_scheduleplanner.png)
+
+
+
+
+### Screenshot
+This screenshot shows the warning of overlapping schedules
+![](Issue8Images\scheduleconflict-warning.png)
+This screenshot shows the result of clicking the 'Save Anyway' button. Where is the overlap? It clearly shows one schedule with Mon-Fri 0900 to 1230 and another Monday only 1300 to 1430 (I converted the times to 24 hour to better see.)
+![](Issue8Images\scheduleconflict-noactualconflict.png)
+
+
+
+
+
+
+
+
+
+
 
 
 morning work block does not appear in the daily view, it should show me.
