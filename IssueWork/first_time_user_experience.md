@@ -20,10 +20,10 @@ It will help smooth out the difficulty of adding websites to block. I personally
 Something similar already exists with the application blocking. It seems to list applications that appear in the control panel installed list. 
 
 ### Screenshot
-Taken during setup wizard
+Taken during setup wizard  
 ![](Issue8Images\decorativeimagecoveredframe.png)
 
-Taken after setup wizard
+Taken after setup wizard  
 ![](Issue8Images\blockingwebsite-issues.png)
 
 ## Decorative Image covered the frame
@@ -37,8 +37,9 @@ This was caused by the size of the window. As I made the window larger, I saw th
 Allow the user to move the bear image, or do more testing for where things are placed when the window is at its minimum size
 
 ### Screenshot
-It appears on two scenes
-![](Issue8Images\decorativeimagecoveredframe.png)
+It appears on two scenes  
+![](Issue8Images\decorativeimagecoveredframe.png)  
+
 ![](Issue8Images\decorativeimagecoveredframe2.png)
 
 ## The Bear
@@ -69,25 +70,26 @@ Something like I did for the [internship time plan](https://github.com/pdalpozzo
 ![](Issue8Images\coldturkeydaily_scheduleplanner.png)
 
 ### Screenshot
-This screenshot shows the warning of overlapping schedules
+This screenshot shows the warning of overlapping schedules  
 ![](Issue8Images\scheduleconflict-warning.png)
 
-This screenshot shows the result of clicking the 'Save Anyway' button. Where is the overlap? It clearly shows one schedule with Mon-Fri 0900 to 1230 and another Monday only 1300 to 1430 (I converted the times to 24 hour to better see.)
+This screenshot shows the result of clicking the 'Save Anyway' button. Where is the overlap? It clearly shows one schedule with Mon-Fri 0900 to 1230 and another Monday only 1300 to 1430 (I converted the times to 24 hour to better see.)  
 ![](Issue8Images\scheduleconflict-noactualconflict.png)
 
 ## Seeing Blocked Sessions and Time Progress on Day View
 ### Suggestion
 The Day View should show session blocks. It should also show the progress though the day. Right now the Day View doesn't work as I expected. The time on the Deep Work section keeps changing. It doesn't seem to match the current time or the time I started the session. I started the session around 0900, it is currently 1053 and the day view is showing 1037. It's really odd. I expected my Morning Work block to appear there.
 
-Morning Blocking
+Morning Blocking  
 ![](Issue8Images\scheduleconflict-noactualconflict.png)
-Day View with no Morning Blocking
+
+Day View with no Morning Blocking  
 ![](Issue8Images\dayview-nosessionblocks.png)
 
 
 Nothing shows me that I can drag a task from the list on the side to the Deep Work area. Doing so updated the time for me to the current time 1053. Then the task just shows a number value for the time it will take. It should show a block of time progressing. 
 
-This is a quick mockup of what I am suggesting, and basically how I was expecting this feature to work. It is obviously not to scale, but it is just a mock up. The tasks should also appear in it. If task focus is switch, it should show it in the day view.
+This is a quick mockup of what I am suggesting, and basically how I was expecting this feature to work. It is obviously not to scale, but it is just a mock up. The tasks should also appear in it. If task focus is switch, it should show it in the day view.  
 ![](Issue8Images\dayview-progressIdea.png)
 
 ### What is this trying to solve?
@@ -117,7 +119,7 @@ Then, the next scene is the 'Need some fresh ideas for habits?'. I went from thi
 ![](Issue8Images\extraclick-nothinggained.png)
 
 ### Suggestion
-Make it all one scene. 
+Make it all one scene.  
 ![](Issue8Images\scrollingbearsIdea.png)
 
 It is much cleaner. Less steps. More interactive. More visually leading.
@@ -191,7 +193,11 @@ The goal of this is to slowly introduce new features to the user. It will:
 - allow the user to focus on a single feature at a time and build that into their routines
 
 All of this together should reduce the amount of users that turn away after a short time, reduce the onboarding time, increase daily use, and increase their understanding of each individual feature.  
-Think of video games, each mechanic has its own introduction and usually comes with some small dialogue and a situation where the mechanic help the player advance. It's usually a well tailored event to focus on that mechanic. Giving the player a chance to understand the mechanic before being able to explore how it interacts with other mechanics.
+Think of video games, each mechanic has its own introduction and usually comes with some small dialogue and a situation where the mechanic help the player advance. It's usually a well tailored event to focus on that mechanic. Giving the player a chance to understand the mechanic before being able to explore how it interacts with other mechanics.  
+
+### Screenshot
+The leveling system is already in place  
+![](Issue8Images\progresslevels.png)
 
 ## Dark Mode
 ### Issue
@@ -203,36 +209,128 @@ This is classic case of 'people only notice when things don't work'. Dark mode w
 Set the default to use system settings, or ask the user. Preferably at the start of the initial set up. We are making an app that wants to invite people to use it. What people prefer visually is a major part of that. It is a very important step.
 
 ## Habit editing requires reset
-resetting after habit editting breaks flow and control - even minor changes and saves cause a reset
+### Issue
+Changing any habit settings requires the app to reset. It breaks flow. It is tedious for small changes. The reset is very jarring. I will spend a minute setting up my tasks and focus session. Then when I make a change to a habit, I lose some of that set up. My active tasks are gone from my session. My session time resets while keeping the remaining duration. Although, it seems to not work correctly. The focus log does eventually show the time spent, but there is a delay and feels like that time and effort is lost.
+
+### Suggestion
+I do not know how the inner workings of this feature work. But The flow is broken. From what I see I assume:
+- there is a authentication handshake to the habit editing website
+- a fetching of the users habits
+- then it loads all the data
+
+I'm not sure there is a way to bypass this. An alternative is a bit more risky and more likely to get out of sync. You could load this data when loading the application. Have a temporary local version. Then when changes are made, save them behind the scenes. If something needs to reload, do it in the background while leaving the main focus session functionality working. Or you could have a queue of changes that process the next time the application loads or shuts down.
+
+This might bring up issues about syncing across multiple devices. I'm sure there is something that will break. But, the user will most likely be using one device more often than another. If I am mostly interacting with the PC app, then I am probably on my PC working. If I am interacting with the device app, then I am probably going about my free time.
+
+I don't know if there is a good solution here, I just know that it breaks flow and messes up some of the features.
+
+### Screenshots
+The focus session before a habit reset (4 mins of 2 hr 30 min)  
+![](Issue8Images\beforehabitreset.png)  
+
+The pop up when saving a habit change  
+![](Issue8Images\resetpopup.png)  
+
+The focus session after a habit reset (0 sec of 2 hr 24 min)  
+![](Issue8Images\afterhabitreset.png)  
+
+The focus session losing duration time instead of gaining time past (0 sec of 2 hr 19 min)  
+![](Issue8Images\focussessionlosingtime.png)  
 
 ## Focus Button
-x to close should always be visible - focus button purchase
-purchasing the focus button could maybe be in the app? it should also be suggested to the user after a week of using the app.
+### Issue
+I want the focus button to be purchasable in the application. With that, we could promote the purchase of the focus button. After a week of using the app, tell the user about the focus button. But, instead of just having a close button for the pop up, have 'Buy Now', 'Remind me later' and 'Not Interested' buttons. The reminder button can just activate a weekly/monthly reminder about the button.
+
+There is also a minor issue when purchasing the focus button on the website.
+
+### Screenshots
+This shows where I expected to be able to buy the focus button through the app. I don't really want to go to an external website. Just let me purchase it here.   
+![](Issue8Images\shouldhavebuyoptionhere.png)  
+
+This shows the close button not being anchored at the top of the focus button purchase popup  
+![](Issue8Images\focusbuttonpurchasepopup-noclosewhenscrollingdown.png)  
 
 ## Habit Export/Import
-i made a new account for this experience - but i really like the habits i have set up - maybe needs an import and export system for habits
-or maybe you can explore your friends habits and copy them? is there a friends list? would that be too distracting?
+### Suggestion
+I made a new account for this issue. But I really like the habits I have set up on this account. Maybe habits could have an import and export system. You could share habits, get community made habit packages and maybe even extend the feature to share session block times and block lists.
+
+### What is this trying to solve?
+Nothing. I just think this is cool.
 
 ## Friends List
+### Suggestion
+It would be nice to have a friends list. Maybe I want to see them on the leaderboard or share habits with them. Maybe I want to organize a meeting or a free time session with them. I could brag about my level and habit streaks. You could ask your friends to control the breakout password for that session.
+
+### What is this trying to solve?
+Nothing. I just think this is cool.
 
 ## Sign up and Log in
-sign up and log in pages are exactly the same - why not just assume if the email is existing and the password is correct that the user is trying to log in?
+### Issue
+I always have an issue with these pages. I understand that there are some differences to the tasks and pages. But, let's try to make something better. Both pages are the same, in fact, there are 2 lots of 2 pages that are all the same. They could be all on the single page.
+
+### Sign In and Sign Up Screenshots
+The sign in page (existing user)  
+![](Issue8Images\signin.png)  
+
+The sign up page (create user)  
+![](Issue8Images\signup.png)  
+
+Both of these pages hold the same fields and details. A bit of simple logic when the button is pressed will allow us to make these the same page and allow the user to not worry about which page they are on exactly. The password rules are fine to show on a sign in page. so many times I have made accounts where I have forgotten the rules of the password and cannot log in.
+- If the email address is in use, assume it is an existing user. Check the password. If its incorrect, alert the user that the email address already has an account and the password does not match.
+- If the email address does not exist, then create the account with the password.  
+
+I don't see this as bad feedback or too much feedback that can be used as a brute force hack. The password rules are available for anyone to see. Knowing the email is already in use doesn't change anything. A user could type in every combination of emails to find that out. Knowing the password is incorrect doesn't give any more information to a hacker, but it gives a real account user more information.
+
+### Sign In and Sign Up Screenshots
+The existing user page  
+![](Issue8Images\existingaccount.png)  
+
+The create user page  
+![](Issue8Images\createaccount.png)  
+
+They are the same page. A bit od simple logic on each button could handle each scenario.
+
+### Suggestion
+This page could handle all cases that the 4 pages above could handle. Less clicks, less worries.  
+![](Issue8Images\accountidea.png)  
 
 ## Time Tracker
-Settings > Advanced > Time Tracker
-enable focus bear time tracker - is this the feature tht i think it is? will this allow me to see my bad habits and time spent doing things? why isn't it mentioned anywhere? why isnt it in graph format?
+### Issue
+This feature is so good at showing how distracted the user gets. It gives all the information that I was expecting to see in the Day View page. And it is hidden. It's so well hidden that I found it 2 weeks into using Focus Bear, then couldn't even find it a week later. This feature can be used to show good and bad habits, how the user improves the productivity over time. Why not show it to them.
+
+This is what makes the whole app work. It tracks everything. Why isn't it shown to the user? Why is it so hidden?
+
+Note: You can find it here: Settings > Advanced > Time Tracker
+
+### Suggestion
+This pretty much blends into the suggestion I made above with the Day View stuff. But it can be taken further. You can do a weekly rundown in graph form. Allow the graph to be interactive. Maybe show it to the user as a colour coded bar graph for each day: green for deep work, red for distracted, blue for breaks. Then let them interact. Offer a habit/session/distraction total time bar graph, or even a pie graph if they want to see the percentage of the week. 
+
+![](Issue8Images\weeklytrackergraph.png)     ![](Issue8Images\timespentgraph.png)  
 
 ## Tab Audit
-tab audit - i removed this from my pc app, but it appears when i log in on the laptop
-tab audit is a cool idea, but no normal user will know what urls to csv is, they will never click it, it is too uninviting
+### Issue 
+This feature is cool but is there a point to it? I have been using the application on PC for 3 weeks and I have never used it. Maybe I need to have a rabbit hole experience for it to become useful?
 
-## Have Set Focus Sessions
-there should be a focus session that gives a tutorial through the whole app or maybe one feature at a time. it should be easy to click and should be able to be viewed however many times the user wants.
+I feel like this is a function a programmer would use but a normal person would be like 'What is URLs and CSV?' Unless it can be converted into a visual for simple minds to understand it immediately, it is probably best outside of the hands of the user.
 
-## Stats Page
-the stats page needs to be more accessible and presentable it has a lot of good information
-habit stats is really good, i like the bars - but i have drink water at 75% in most consistent habit and drink water at 0% in least consistent habit - are they at different times? should the habit be consolidated? maybe the habit should only be added once and then added to breaks and routines so that the data stays in the correxct places.
+### Suggestion
+No real suggestion here. Just that more consideration needs to be put into why the feature exists, and how people can use it to get a benefit. Right now, it just seems like a cool way to list tabs on a browser and in a form that is not really inviting to a non-programmer.
 
+## Have Tutorial Focus Sessions
+### Suggestion
+This one is pretty cool idea. The user should be able to use the app to trigger a tutorial of the app. This sounds confusing, so let me explain.
 
+A first time user installs the app. The app opens to the Focus Session page. Everything else is locked. The page has a few options: 
+- Tutorial of Focus Bear
+- My First Focus Session
+- I've done this before, Don't baby me.
 
+***I've done this before, Don't baby me.***  
+Simple. This button is pressed and it removes all the tutorial stuff. The user can now interact with Focus Bear like an experienced user.
 
+***My First Focus Session***  
+Starts a Focus Session for 20 minutes. Removes all tutorial stuff.
+
+***Tutorial of Focus Bear***  
+Provides a step by step guide on how to use Focus Bear. Obviously, it will start with the hero of the application; focus sessions. Steps through the focus session page, explaining each button. Guides the user through setting a session time, how to set an active task, how to switch up the tasks and how to end a session. When the user gets to the end of the tutorial, they can be prompted about the Block List tutorial. They can end the tutorial if they want and have access to the tools they know, or they can continue and unlock Block Lists.  
+The tutorial is a session block with tasks and goals. When the user activates it, the app loads that scenario and guides the user through the new feature. Allowing us to provide more specific tutorials at a shorter duration. And allowing the user to choose when to activate the tutorial.
