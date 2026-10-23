@@ -334,3 +334,9 @@ Starts a Focus Session for 20 minutes. Removes all tutorial stuff.
 ***Tutorial of Focus Bear***  
 Provides a step by step guide on how to use Focus Bear. Obviously, it will start with the hero of the application; focus sessions. Steps through the focus session page, explaining each button. Guides the user through setting a session time, how to set an active task, how to switch up the tasks and how to end a session. When the user gets to the end of the tutorial, they can be prompted about the Block List tutorial. They can end the tutorial if they want and have access to the tools they know, or they can continue and unlock Block Lists.  
 The tutorial is a session block with tasks and goals. When the user activates it, the app loads that scenario and guides the user through the new feature. Allowing us to provide more specific tutorials at a shorter duration. And allowing the user to choose when to activate the tutorial.
+
+## Bugs I have Reported
+I have reported a single bug at the moment. This is evidence that I know how to do it and will eventually log all these issues/suggestions from this document. I will do it, but it will take time, maybe a few days next week.
+
+Its ID is 3YQAYX  
+![](Issue8Images\bugreported.png)  
