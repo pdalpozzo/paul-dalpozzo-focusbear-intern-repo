@@ -33,11 +33,24 @@ I checked the `duplicate-repo.js`, `.env.sample` and `README.md`; they only cont
 >- A proper example of the .env file is provided
 >- The expected format for DEST_REPOS is explained more clearly
 
-README.md screenshot
-![README.md screenshot](16_variablename.png)  
-
 **1. The correct variable name is clearly mentioned everywhere**  
-Above is a screenshot of the `README.md`. `DEST_REPOS` is the only one ever mentioned.
+`DEST_REPOS` is the only one ever mentioned. Below are screenshots of the search for both the `README.md` and `duplicate-repo.js`.
+
+`README.md` `DEST_REPO` Search  
+![](16_readmesearchrepo.png)  
+
+`README.md` `DEST_REPOS` Search  
+![](16_readmesearchrepos.png)  
+
+Both have 2 found, meaning that `DEST_REPO` is only found inside of `DEST_REPOS` and never mentioned.
+
+`duplicate-repo.js` `DEST_REPO` Search  
+![](16_destrepofind.png)  
+
+`duplicate-repo.js` `DEST_REPOS` Search  
+![](16_destreposonly.png)  
+
+Both have 4 found, meaning that `DEST_REPO` is only found inside of `DEST_REPOS` and never mentioned.
 
 **2. A proper example of the .env file is provided**  
 There is a sample provided in the `.env.sample` file. Here are two screenshots from the GitHub Repository.
@@ -49,6 +62,9 @@ This clearly shows the `.env.sample` file.
 This clearly shows the contents of the sample file. While it does not match the instructions in the `README.md` word for word, it seems clear to me that `DEST_REPOS=["your-username-intern-repo"]` and `DEST_REPOS=["YOUR_USERNAME/focus-bear-generic-onboarding"]` are in the same location and are the same variable. You can also see that the example is already in the format that is expected.
 
 **3. The expected format for DEST_REPOS is explained more clearly**  
+
+![README.md screenshot](16_variablename.png)  
+
 In the above screenshot of the `README.md`, the `DEST_REPOS` formatting is clearly explained and visible. The exact line is
 >Replace `your-username-intern-repo` with your **new repository name**. Make sure it is enclosed in [" and "]  
 
