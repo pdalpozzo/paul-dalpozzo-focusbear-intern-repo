@@ -34,7 +34,7 @@ The features include:
   - Each task has a due date, a deadline, an effort scale, a progress state, a description and can have subtasks.
 - Notes - a place to write some notes. This is intended to write distracting thoughts and to return to them later.
 - Stats - so many stats. Too many to list here.
-- Tab Audit - this feature looks at the active tabs you have open. I think it only works on web browsers.
+- Tab Audit - this feature looks at the active tabs you have open. 
 - Late No More - this feature allows for calendar synchronization and allows the user to set default ways to handle upcoming meetings.
 - Focus Log - tracks sessions that have been completed
 - Blocking
@@ -48,12 +48,12 @@ The features include:
 The downside to having this many features is that the user needs to manage them all. The features might add some productivity, but at the same time it adds more work to manage that productivity. 
 - The day plan doesn't show the schedule blocks
 - The focus session doesn't allow the user to toggle the micro-breaks without restarting a session
-- The habit editor requires the app to fulling restart; breaks the flow of user experience and can mess up the focus session
+- The habit editor requires the app to fully restart; breaks the flow of user experience and can mess up the focus session
 - The tab audit is cool but converting it to a CSV of URLs is not user friendly and most would avoid it
-- Adding a calender was hard, and the 'Add' button disappears after the first calendar
+- Adding a calendar was hard, and the 'Add' button disappears after the first calendar
 
 #### Subscriptions
-I had no idea how the company made money. Turns out there are subscriptions. The subscriptions aren't that expensive. It is obviously cheaper to sub to the lifetime version for $150. It makes sense that the internship is unpaid. 
+I had no idea how the company made money. Turns out there are subscriptions. The subscriptions aren't that expensive. It is obviously cheaper to sub to the lifetime version for $150.
 
 #### Potential
 Focus Bear has a lot of potential. The whole time watching the onboarding playlists I was thinking of how it could be used to help kids with screen time issues or how it could possibly track your life and automatically assume tasks based on your location. It even has potential to help with things like gaming. Say you have set aside 8 hours to play a game that just came out, you could have Focus Bear remind you to take breaks and drink water. It can even suggest exercises to do in those breaks so that your body doesn't feel terrible after sitting for 8 hours.
@@ -63,9 +63,9 @@ Focus Bear has a lot of potential. The whole time watching the onboarding playli
 - Of the Eisenhower Matrix. That is pretty cool.
 - About the Focus Button. Amazing idea.
 - This product is good value for money if the user uses it. Making it as easy to use as possible is the key to this app's success.
-- The strict way of keeping focus using the app is very similar to how the teaches at my sons school try to keep the children's focus on their tasks. It is a school for autistic children.
+- The strict way of keeping focus using the app is very similar to how the teachers at my son's school try to keep the children's focus on their tasks. It is a school for autistic children.
 
-### Did you spot anything in the help centre that seems out of date or inconsistent with the current app? If so, flag it — outdated help content is worth fixing.
+### Did you spot anything in the help centre that seems out of date or inconsistent with the current app? If so, flag it - outdated help content is worth fixing.
 Honestly, I noticed a lot of things were out of date. This is what happens when you use lots of images in your tutorials. Maybe an internal program could be used to help keep the images updated instead of making a person update them every few months. OR, I just think they are out of date because I use dark mode for everything and the images are not in dark mode.
 
 #### Here is a list:
@@ -82,7 +82,7 @@ Honestly, I noticed a lot of things were out of date. This is what happens when 
     - Motivational Boost: Start Your Routine Motivated - all screenshots on this article seem outdated
     - To-Do List
       - all screenshots on this article seem outdated
-      - the Eienhower Matrix access is not described well - it should just be a button on the task page
+      - the Eisenhower Matrix access is not described well - it should just be a button on the task page
     - Get an Evening Reminder to Wind Down - edit habit screenshot looks outdated
     - Accessibility Options - all screenshots on this article seem outdated
     - Advanced Settings - all screenshots on this article seem outdated
