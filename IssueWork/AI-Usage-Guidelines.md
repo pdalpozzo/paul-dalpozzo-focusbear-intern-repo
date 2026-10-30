@@ -74,7 +74,20 @@ I will never use real data from my usage or any data from a real database. I wou
 I have recently been making a game prototype with AI. I have been getting the AI to code and commit changes to the prototype. This has sped up the speed of my production. Things that would take days or weeks, now take a few hours.
 
 ### Review the AI-generated output critically—did it require editing or fact-checking?
-I review and play test every update before I sign off on the mechanic. I always play test any changes no matter how minor. As for fact-checking or editing, I don't really need to do that in my process. I have a document that is maintained and added to after every mechanic is signed off. This document keeps the AI in line and allows me to avoid hallucinations. It also keeps me in check as the AI can point out conflicting methods that I have already told it not to do.
+Yes. While my context documents keep the AI aligned, strict verification is always required before code is signed off.
+
+My example is about a game mechanic that I call 'Replacements'. In the game, the player sends Units on Missions to fight Enemies. Each Unit has a cost of a Recruit, a Weapon and an Armour. When a Unit is killed by an Enemy, a Replacement is sent to become the new Unit and it takes 5 seconds for the Replacement to get into place. On Unit death, a roll is done for the Replacement to reuse the Weapon and Armour dropped by the dead Unit. This is supposed to create a way to recover costs.  
+
+There are two mechanics of this system that the AI got incorrect.
+#### The order of actions in the simulation
+- **The Error:** The AI assumed the order of actions being done. This lead to Units spawning and dying before being able to attack the enemy. 
+- **The Correction:** I caught the error while doing a play test. I checked the code and realized the order was wrong. I put the sequence of actions into the correct order and told the AI to make a note of that so it wouldn't make the mistake of assuming its implementation of the actions was correct.
+
+#### Assuming a successful roll saved the units life
+- **The Error:** The AI assumed that all 3 resources were reused when a successful roll happened on Unit death.
+- **The Correction:** I noticed that the resource count of the Recruits was matching the Weapons and Armour even when a Unit was lost. I made the AI add a rule to its documentation. The rule was that Recruits are not part of a Kit. A Kit should only include non-living things that can be salvaged from the battlefield.
+
+Even when the AI produces an output that appears perfect on the surface, I confirm its validity through structural code read-throughs and edge-case execution tests. This ensures that hidden bugs or non-optimized logic are never integrated into the project.
 
 ### Document one best practice you will follow when using AI tools at Focus Bear.
 I will never copy and paste from AI. I know that I have stated above that I trust it for some things. But this is a job and many people will be affected by anything I do. I will not risk that. Plus I am here to learn. I will ask AI for ideas on how tasks are typically done and use that as a way to explore implementation of ideas, but I will not ask it to create something and will never ask it to look at the repository or code base directly.
