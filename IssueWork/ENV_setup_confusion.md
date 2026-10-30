@@ -44,10 +44,12 @@ While everything is technically correct and in place to help a beginner, there a
 This code has a single line for parsing `DEST_REPOS`. It does not allow for any handling of errors. As a general rule/standard, variables that are parsed should be placed in a `try/catch`. This standard exists to prevent this exact issue. That way we can handle failed parses correctly.
 
 #### Solution
-**Step 1:** We need to place the parsing into a `try/catch`. Here we can provide an error message that specifies it is a parsing error.
-
 <details>
-  <summary>Potential Code Fix</summary>
+  <summary>
+    <b>Step 1:</b> We need to place the parsing into a 
+    <span style="color: #BEAD7A; background-color: #353535; padding: 1px 2px;">try/catch</span>
+    . Here we can provide an error message that specifies it is a parsing error.
+  </summary>
 
   ```js
   try {
@@ -60,11 +62,11 @@ This code has a single line for parsing `DEST_REPOS`. It does not allow for any 
     process.exit(1);
   }
   ```
+  
 </details><br>
 
-**Step 2:** Remove parsing on a single line
 <details>
-  <summary>Potential Code Fix</summary>
+  <summary><b>Step 2:</b> Remove parsing on a single line</summary>
 
   ```js
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -79,12 +81,11 @@ This code has a single line for parsing `DEST_REPOS`. It does not allow for any 
   const SOURCE_REPO = process.env.SOURCE_REPO;
   let DEST_REPOS;
   ```
+
 </details><br>
 
-**Step 3:** Check each variable individually and provide better error messages.
-
 <details>
-  <summary>Potential Code Fix</summary>
+  <summary><b>Step 3:</b> Check each variable individually and provide better error messages.</summary>
 
   ```js
   if (!GITHUB_TOKEN || !SOURCE_REPO || !DEST_REPOS) {
@@ -119,11 +120,16 @@ This code has a single line for parsing `DEST_REPOS`. It does not allow for any 
     process.exit(1);
   }
   ```
+
 </details><br>
 
-**Step 4:** Add a check on the `DEST_REPOS` to ensure it is an array and not empty
+
 <details>
-  <summary>Potential Code Fix</summary>
+  <summary>
+    <b>Step 4:</b> Add a check on the 
+    <span style="color: #BEAD7A; background-color: #353535; padding: 1px 2px;">DEST_REPOS</span> 
+    to ensure it is an array and not empty
+  </summary>
 
   ```js
   if (!Array.isArray(DEST_REPOS) || DEST_REPOS.length === 0) {
@@ -132,12 +138,21 @@ This code has a single line for parsing `DEST_REPOS`. It does not allow for any 
     process.exit(1);
   }
   ```
+
 </details><br>
 
 
-**Step 5 (Optional):** Add handling for `DEST_REPO` and provide a warning message. This should be placed after the `SOURCE_REPO` check and before the `DEST_REPO` check. 
+
 <details>
-  <summary>Potential Code Fix</summary>
+  <summary>
+  <b>Step 5 (Optional):</b> Add handling for 
+    <span style="color: #BEAD7A; background-color: #353535; padding: 1px 2px;">DEST_REPO</span> 
+    and provide a warning message. This should be placed after the 
+    <span style="color: #BEAD7A; background-color: #353535; padding: 1px 2px;">SOURCE_REPO</span> 
+    check and before the 
+    <span style="color: #BEAD7A; background-color: #353535; padding: 1px 2px;">DEST_REPO</span> 
+    check. 
+  </summary>
 
   ```js
   // Check if DEST_REPO is used, provide a warning and add the path to DEST_REPOS
@@ -151,6 +166,7 @@ This code has a single line for parsing `DEST_REPOS`. It does not allow for any 
     process.env.DEST_REPOS = `["${cleanRepo}"]`;
   } 
   ```
+
 </details><br>
 
 ---
@@ -197,7 +213,7 @@ The troubleshooting section of the `README.md` is very brief and located at the 
 
 >## ❓ Troubleshooting
 >
->If you encounter issues, check the common solutions below.
+>If you have encountered issues, check the common solutions below.
 >
 >### GitHub API Rate Limit Exceeded
 >The GitHub API has a strict limit on how many requests can be made in an hour. Unauthenticated requests (no token) are limited to **60 requests per hour**, which this script can quickly exhaust when fetching large amounts of issue or label data. Authenticated requests using a Personal Access Token (PAT) allow up to **5,000 requests per hour**.
