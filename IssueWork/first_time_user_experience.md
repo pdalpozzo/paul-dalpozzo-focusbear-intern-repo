@@ -7,10 +7,11 @@
 **GitHub Repo:** https://github.com/pdalpozzo/paul-dalpozzo-focusbear-intern-repo/blob/main/IssueWork/first_time_user_experience.md
 
 # Issue 8
-
 Below are some points of feedback that I have from the initial experience of using Focus Bear.
 
-## Blocking Websites
+## Blocking Websites via Bookmarks
+**ID:** ZXV76I  
+
 ### Suggestion
 I followed the setup wizard and was doing the step where I need to add websites to the block list. My natural instinct was that I would be able to select some bookmarks from my default browser. I am not going to remember the sites that distract me most, but I would definitely have them bookmarked for easy access.
 
@@ -27,6 +28,8 @@ Taken after setup wizard
 ![](Issue8Images\blockingwebsite-issues.png)
 
 ## Decorative Image covered the frame
+**ID:** EGS5MM  
+
 ### Issue
 I was on the page 'Which apps do you want to block' and the bear image was coming from the right side of the window. The speech bubble from the bear was reaching the frame of where my focus was. I thought it could be hiding a button. 
 
@@ -43,6 +46,8 @@ It appears on two scenes
 ![](Issue8Images\decorativeimagecoveredframe2.png)
 
 ## The Bear
+**ID:** F3UPDG  
+
 ### Suggestion
 I think the bear mascot is cool. He should be more interactive. Maybe clicking on him multiple times quickly could play a short animation. Maybe let the user pat his head. Maybe let a click remove the speech bubbles. You can teach the user this interaction during the set up wizard. The wizard could start off with the bear looking at a computer screen and the user is told to 'Poke the bear' to get his attention. Then this plays into the whole story of the bear and the user helping each other with focus.
 
@@ -53,6 +58,8 @@ The mascot idea is already trying to get a rapport with the user and appear as a
 I have since installed the app on my phone and the bear is much more animated and interactive. This is what I imagined.
 
 ## Setting up Block Sessions - Difficult Layout and Imaginary Overlapping
+**ID:** AX1C3N  
+
 ### Issue
 During the setup, the 'Set Block Details' page appeared. I had never seen it before because I skipped the setup on my first install. This is a feature that I had been looking for. So I spent some time setting up some blocks.
 I set up a 'Morning Work' block. I expected it to appear in the day plan, but it wasn't there.
@@ -77,6 +84,8 @@ This screenshot shows the result of clicking the 'Save Anyway' button. Where is 
 ![](Issue8Images\scheduleconflict-noactualconflict.png)
 
 ## Seeing Blocked Sessions and Time Progress on Day View
+**ID:** AX1C3N  
+
 ### Suggestion
 The Day View should show session blocks. It should also show the progress though the day. Right now the Day View doesn't work as I expected. The time on the Deep Work section keeps changing. It doesn't seem to match the current time or the time I started the session. I started the session around 0900, it is currently 1053 and the day view is showing 1037. It's really odd. I expected my Morning Work block to appear there.
 
@@ -107,6 +116,8 @@ This suggestion is trying to give the user feedback and show that their time use
 It really is a great place to show everything that has been set in the app. It would create a much easier to understand visual feedback and show how all the features work together.
 
 ## Habits in Setup Wizard
+**ID:** UVV89H  
+
 ### Issue
 When setting up the habits through the wizard there where two scenes that confused me and they were back to back.  
 
@@ -128,6 +139,8 @@ It is much cleaner. Less steps. More interactive. More visually leading.
 This section actually confuses me further. If you click 'Aye - Give me some ideas, Cap'n' button, the application starts to load what looks like a website. This removes the user from the app. It breaks the flow and adds time to the initial use of the app.
 
 ## Goals creating duplicate habits
+**ID:** Q304A6  
+
 ### Issue
 In my initial set up of Focus Bear I set my goals on the 'What are your goals?' page. I think I chose three:
 - Boost Productivity
@@ -135,10 +148,20 @@ In my initial set up of Focus Bear I set my goals on the 'What are your goals?' 
 - Focus on health & fitness
 
 I think this gave my duplicate habits. 'Make my bed' appeared twice. '3 min evening snack' appeared 3 times.
+ 
+### Screenshot
+Habit Goal Selection  
+![](Issue8Images\habit-goalselection.png)  
 
-***I think this issue might be out of date. I tried this same sequence again today and the whole scene is different.***
+Make Your Bed  
+![](Issue8Images\multiplehabits-01.png)  
+
+3-min evening protein snack prep & log  
+![](Issue8Images\multiplehabits-02.png)  
 
 ## Time from Creating an account to being allowed to use the app
+**Not Submitted:** More of an observation than an Idea or Bug
+
 ### Issue
 I tested this on PC last week (15th October). It took around 16 minutes to complete the whole setup. It's too long. 
 
@@ -149,6 +172,8 @@ Allow the QA team to create fake new accounts that go through the setup and time
 One of the major issues on the app is onboarding. Having a long set up is like clicking 'Start Game' and waiting for the 30 minutes of lore to finish. The user wants to see the app. They want to explore it to see if it is worth the time to set things up. This also is part of my next issue/suggestion. 
 
 ## Feature dump
+**ID:** 7YZDQ5  
+
 ### Issue
 There are so many features in Focus Bear. So many that even after 2 weeks of using I am still finding and learning more. More features isn't the problem here, its the pace they are given to the user and even how easy they are to find/use. A new user comes along and has no real idea about what the app does or how they can use it to benefit them. And the app just goes 'here is like 30 features, go nuts'. I thought we were making an app for people that can get overwhelmed? This is straight up bad.
 
@@ -200,6 +225,8 @@ The leveling system is already in place
 ![](Issue8Images\progresslevels.png)
 
 ## Dark Mode
+**ID:** YBQH15  
+
 ### Issue
 This happened to me on the PC version. It was set to 'Never use Dark Mode'. I always use dark mode. It took me like 3 days to find this setting. It's a bit embarrassing. But then, I install the device app on my phone and it automatically is set to 'Use system setting'. I did not even notice that it was in dark mode until I read my notes here and saw I had an issue with it on PC. Which begs the question: why is it not fixed on PC if it is fixed on devices?
 
@@ -209,6 +236,8 @@ This is classic case of 'people only notice when things don't work'. Dark mode w
 Set the default to use system settings, or ask the user. Preferably at the start of the initial set up. We are making an app that wants to invite people to use it. What people prefer visually is a major part of that. It is a very important step.
 
 ## Habit editing requires reset
+**ID:** XMNS47  
+
 ### Issue
 Changing any habit settings requires the app to reset. It breaks flow. It is tedious for small changes. The reset is very jarring. I will spend a minute setting up my tasks and focus session. Then when I make a change to a habit, I lose some of that set up. My active tasks are gone from my session. My session time resets while keeping the remaining duration. Although, it seems to not work correctly. The focus log does eventually show the time spent, but there is a delay and feels like that time and effort is lost.
 
@@ -238,6 +267,8 @@ The focus session losing duration time instead of gaining time past (0 sec of 2 
 ![](Issue8Images\focussessionlosingtime.png)  
 
 ## Focus Button
+**ID:** YI7BX6 & BL1FMA
+
 ### Issue
 I want the focus button to be purchasable in the application. With that, we could promote the purchase of the focus button. After a week of using the app, tell the user about the focus button. But, instead of just having a close button for the pop up, have 'Buy Now', 'Remind me later' and 'Not Interested' buttons. The reminder button can just activate a weekly/monthly reminder about the button.
 
@@ -251,6 +282,8 @@ This shows the close button not being anchored at the top of the focus button pu
 ![](Issue8Images\focusbuttonpurchasepopup-noclosewhenscrollingdown.png)  
 
 ## Habit Export/Import
+**ID:** S5LACQ  
+
 ### Suggestion
 I made a new account for this issue. But I really like the habits I have set up on this account. Maybe habits could have an import and export system. You could share habits, get community made habit packages and maybe even extend the feature to share session block times and block lists.
 
@@ -258,6 +291,8 @@ I made a new account for this issue. But I really like the habits I have set up 
 Nothing. I just think this is cool.
 
 ## Friends List
+**ID:** TKVBEG  
+
 ### Suggestion
 It would be nice to have a friends list. Maybe I want to see them on the leaderboard or share habits with them. Maybe I want to organize a meeting or a free time session with them. I could brag about my level and habit streaks. You could ask your friends to control the breakout password for that session.
 
@@ -265,6 +300,8 @@ It would be nice to have a friends list. Maybe I want to see them on the leaderb
 Nothing. I just think this is cool.
 
 ## Sign up and Log in
+**ID:** NBVEXZ  
+
 ### Issue
 I always have an issue with these pages. I understand that there are some differences to the tasks and pages. But, let's try to make something better. Both pages are the same, in fact, there are 2 lots of 2 pages that are all the same. They could be all on the single page.
 
@@ -295,6 +332,8 @@ This page could handle all cases that the 4 pages above could handle. Less click
 ![](Issue8Images\accountidea.png)  
 
 ## Time Tracker
+**ID:** AAT5XF  
+
 ### Issue
 This feature is so good at showing how distracted the user gets. It gives all the information that I was expecting to see in the Day View page. And it is hidden. It's so well hidden that I found it 2 weeks into using Focus Bear, then couldn't even find it a week later. This feature can be used to show good and bad habits, how the user improves the productivity over time. Why not show it to them.
 
@@ -308,6 +347,8 @@ This pretty much blends into the suggestion I made above with the Day View stuff
 ![](Issue8Images\weeklytrackergraph.png)     ![](Issue8Images\timespentgraph.png)  
 
 ## Tab Audit
+**ID:** IFVRWI  
+
 ### Issue 
 This feature is cool but is there a point to it? I have been using the application on PC for 3 weeks and I have never used it. Maybe I need to have a rabbit hole experience for it to become useful?
 
@@ -317,6 +358,8 @@ I feel like this is a function a programmer would use but a normal person would 
 No real suggestion here. Just that more consideration needs to be put into why the feature exists, and how people can use it to get a benefit. Right now, it just seems like a cool way to list tabs on a browser and in a form that is not really inviting to a non-programmer.
 
 ## Have Tutorial Focus Sessions
+**ID:** RZEFYS  
+
 ### Suggestion
 This one is pretty cool idea. The user should be able to use the app to trigger a tutorial of the app. This sounds confusing, so let me explain.
 
@@ -335,8 +378,33 @@ Starts a Focus Session for 20 minutes. Removes all tutorial stuff.
 Provides a step by step guide on how to use Focus Bear. Obviously, it will start with the hero of the application; focus sessions. Steps through the focus session page, explaining each button. Guides the user through setting a session time, how to set an active task, how to switch up the tasks and how to end a session. When the user gets to the end of the tutorial, they can be prompted about the Block List tutorial. They can end the tutorial if they want and have access to the tools they know, or they can continue and unlock Block Lists.  
 The tutorial is a session block with tasks and goals. When the user activates it, the app loads that scenario and guides the user through the new feature. Allowing us to provide more specific tutorials at a shorter duration. And allowing the user to choose when to activate the tutorial.
 
-## Bugs I have Reported
-I have reported a single bug at the moment. This is evidence that I know how to do it and will eventually log all these issues/suggestions from this document. I will do it, but it will take time, maybe a few days next week.
+## All Reports So Far
 
-Its ID is 3YQAYX  
-![](Issue8Images\bugreported.png)  
+| **ID** | **Type** | **Platform** | **Submitted** | **Status** |
+|---|---|---|---|---|
+| 3YQAYX | Bug | Focus Bear Windows | 14 Oct 2026, 04:00 pm | New issue |
+| OWI0FZ | Idea | People Management System | 26 Oct 2026, 09:33 am | Open |
+| ZXV76I | Idea | Focus Bear Windows | 26 Oct 2026, 09:54 am | New issue |
+| EGS5MM | Bug | Focus Bear Windows | 26 Oct 2026, 10:03 am | New issue |
+| F3UPDG | Idea | Focus Bear Windows | 26 Oct 2026, 10:12 am | New issue |
+| G07NXY | Idea | Focus Bear Windows | 26 Oct 2026, 10:22 am | New issue |
+| A42KI9 | Bug | People Management System | 26 Oct 2026, 11:09 am | Open |
+| EFZZCU | Bug | Focus Bear Windows | 26 Oct 2026, 11:25 am | Open |
+| ZDCR3T | Bug | Focus Bear Windows | 26 Oct 2026, 02:26 pm | Open |
+| AX1C3N | Idea | Focus Bear Windows | 27 Oct 2026, 01:32 pm | New issue |
+| UVV89H | Bug | Focus Bear Windows | 27 Oct 2026, 01:43 pm | New issue |
+| YBQH15 | Bug | Focus Bear Windows | 27 Oct 2026, 01:56 pm | New issue |
+| XMNS47 | Bug | Focus Bear Windows | 27 Oct 2026, 02:11 pm | Open |
+| TKVBEG | Idea | Focus Bear Windows | 27 Oct 2026, 02:25 pm | New issue |
+| NBVEXZ | Idea | Focus Bear Windows | 27 Oct 2026, 02:55 pm | New issue |
+| AAT5XF | Idea | Focus Bear Windows | 27 Oct 2026, 03:07 pm | New issue |
+| Q304A6 | Other | Focus Bear Windows | 30 Oct 2026, 03:03 pm | New issue |
+| 7YZDQ5 | Idea | Focus Bear Windows | 30 Oct 2026, 03:09 pm | New issue |
+| YI7BX6 | Bug | Focus Bear Windows | 30 Oct 2026, 03:14 pm | New issue |
+| BL1FMA | Idea | Focus Bear Windows | 30 Oct 2026, 03:17 pm | New issue |
+| S5LACQ | Idea | Focus Bear Windows | 30 Oct 2026, 03:22 pm | New issue |
+| IFVRWI | Other | Focus Bear Windows | 30 Oct 2026, 03:25 pm | New issue |
+| RZEFYS | Idea | Focus Bear Windows | 30 Oct 2026, 03:30 pm | New issue |
+
+
+
