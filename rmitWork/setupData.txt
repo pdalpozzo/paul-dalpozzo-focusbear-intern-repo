@@ -3,3 +3,51 @@ anonymoususer+7d959c27-b1b7-4042-b673-fc63f1f3b8c7@focusbear.io
 12 minutes
 
 
+
+
+
+Version:
+4.1.252.1
+
+Focus Bear Feedback
+Account creation input fields seem blurry
+Video tutorial UI is outdated
+Cannot set a hard time for task. I want to place the meeting to start at a specific time
+the micro break 'whiteout' is so bright, and doesnt handle multiple screens
+Ui moves around a lot when showing mirco break screens - the bear animation disappears and everything moves up
+the micro break comment is never shown back to me to help remember my train of thought
+Project task status is causing the issue for the wrong status being shown in the todo list.
+Adding block schedule changes the wording of the strictness level
+Blocking schedule back button is too small. Took me a minute to find it
+A micro break warning popup appeared during a self activated micro break
+Changing a habit resets the application, also resets the focus session. unsure if it logs the sessions so far. It did log it, but timer reset
+Making the user update their username in the web app is tedious, and should provide a link - under account
+Stats > Progress > set up blocked URL links to a webpage, not the location in the app to block them
+Stats > Habit stats  should be more accessible. There is good information here for the user, but it feels hidden
+stats > Productivity is very bland. what is the point of this page?
+extending the session timer after it completes has no recalection of the session just completed, timer is wrong
+Is there a reason for the regular and advnaced options for a focus session? Do these two levels change anything else in the app?
+settings has its own geek mode and normal mode - unrelated to the focus session mode...
+tutorials are hidden and outdated
+stats >progress Why not have this more promanant? The levels are a good way to slowly introduce features while giving rewards for doing habits.
+Lots of features at the start. Hard to establish what to do, creates a bit of overwhelm even in neurotypical minds
+streaks... we should not punish for missing a day, doing the routine should be rewarded, doing it on consectutive days should be another rewarded
+noticing patterns. I have never completed an evening routine. Why? because I only use focus bear app on the PC. I haven't set it up on my phone. Why not detect this and offer a guide to set it up. 
+chat with focus bear? what is it? where is it? It could be fun for the user to interact with.
+tab audit - I didn't know what it was and ignored it. cool feature if you are getting too distracted.
+calendars - adding one makes the add button disappear 
+I want to have a reminder to have a lunch break. I get so into the flow of work that I forget to stop. Sometimes, I see the time and im like 'another 10 minutes, ill just do this little thing' then it gives me an idea for another thing to do, and next thing I know, its 3pm, i haven't eaten, and my son needs to be picked up.
+wording is inconsistent. snooze seems like a few minutes delay, postpone should be used here or 'change due date'
+There are no real identity to the tasks. Like I have work (intern) stuff and I have self projects. I should be able to set hard dates for both, but my priority should be work during work hours. And my work tasks should lose priority outside of work hours. maybe a catergory system like 'work', 'play', 'hobby', 'chore', 'maintenance'
+quitting the app feels like a guilt trip, I should be able to pause the reminders and just enjoy the day
+leaderboard should show my position - even if I am out of the top 20, my status should be shown below with the position and scores.
+
+The Device app
+The intro tutorial is so much better than on PC.
+Everything seems better than the PC
+I accidently removed the task from the seesion on my phone. it still appears on my PC
+It offers the auDHD test - mentions it and allows the users to be reminded of it later
+automatically matches the system appearance 
+Overall the device version of the app seems in a better position
+
+bit of task syncing issues in the focus session
