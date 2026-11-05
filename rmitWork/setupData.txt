@@ -1,53 +1,99 @@
-anonymoususer+7d959c27-b1b7-4042-b673-fc63f1f3b8c7@focusbear.io
-35ce9992-2920-4022-85eb-13276cd07326
-12 minutes
-
-
-
-
 
 Version:
 4.1.252.1
 
-Focus Bear Feedback
-Account creation input fields seem blurry
-Video tutorial UI is outdated
-Cannot set a hard time for task. I want to place the meeting to start at a specific time
-the micro break 'whiteout' is so bright, and doesnt handle multiple screens
-Ui moves around a lot when showing mirco break screens - the bear animation disappears and everything moves up
-the micro break comment is never shown back to me to help remember my train of thought
-Project task status is causing the issue for the wrong status being shown in the todo list.
-Adding block schedule changes the wording of the strictness level
-Blocking schedule back button is too small. Took me a minute to find it
-A micro break warning popup appeared during a self activated micro break
-Changing a habit resets the application, also resets the focus session. unsure if it logs the sessions so far. It did log it, but timer reset
-Making the user update their username in the web app is tedious, and should provide a link - under account
-Stats > Progress > set up blocked URL links to a webpage, not the location in the app to block them
-Stats > Habit stats  should be more accessible. There is good information here for the user, but it feels hidden
-stats > Productivity is very bland. what is the point of this page?
-extending the session timer after it completes has no recalection of the session just completed, timer is wrong
-Is there a reason for the regular and advnaced options for a focus session? Do these two levels change anything else in the app?
-settings has its own geek mode and normal mode - unrelated to the focus session mode...
-tutorials are hidden and outdated
-stats >progress Why not have this more promanant? The levels are a good way to slowly introduce features while giving rewards for doing habits.
-Lots of features at the start. Hard to establish what to do, creates a bit of overwhelm even in neurotypical minds
-streaks... we should not punish for missing a day, doing the routine should be rewarded, doing it on consectutive days should be another rewarded
-noticing patterns. I have never completed an evening routine. Why? because I only use focus bear app on the PC. I haven't set it up on my phone. Why not detect this and offer a guide to set it up. 
-chat with focus bear? what is it? where is it? It could be fun for the user to interact with.
-tab audit - I didn't know what it was and ignored it. cool feature if you are getting too distracted.
-calendars - adding one makes the add button disappear 
-I want to have a reminder to have a lunch break. I get so into the flow of work that I forget to stop. Sometimes, I see the time and im like 'another 10 minutes, ill just do this little thing' then it gives me an idea for another thing to do, and next thing I know, its 3pm, i haven't eaten, and my son needs to be picked up.
-wording is inconsistent. snooze seems like a few minutes delay, postpone should be used here or 'change due date'
-There are no real identity to the tasks. Like I have work (intern) stuff and I have self projects. I should be able to set hard dates for both, but my priority should be work during work hours. And my work tasks should lose priority outside of work hours. maybe a catergory system like 'work', 'play', 'hobby', 'chore', 'maintenance'
-quitting the app feels like a guilt trip, I should be able to pause the reminders and just enjoy the day
-leaderboard should show my position - even if I am out of the top 20, my status should be shown below with the position and scores.
+Laptop Version:
+4.1.259.1
 
-The Device app
-The intro tutorial is so much better than on PC.
-Everything seems better than the PC
-I accidently removed the task from the seesion on my phone. it still appears on my PC
-It offers the auDHD test - mentions it and allows the users to be reminded of it later
-automatically matches the system appearance 
-Overall the device version of the app seems in a better position
+Focus Bear Feedback
+Ideas
+- the micro break 'whiteout' is so bright, and doesnt handle multiple screens
+- stats > Productivity is very bland. what is the point of this page?
+- quitting the app feels like a guilt trip, I should be able to pause the reminders and just enjoy the day
+- leaderboard should show my position - even if I am out of the top 20, my status should be shown below with the position and scores.
+- There are no real identity to the tasks. Like I have work (intern) stuff and I have self projects. I should be able to set hard dates for both, but my priority should be work during work hours. And my work tasks should lose priority outside of work hours. maybe a catergory system like 'work', 'play', 'hobby', 'chore', 'maintenance'
+- I want to have a reminder to have a lunch break. I get so into the flow of work that I forget to stop. Sometimes, I see the time and im like 'another 10 minutes, ill just do this little thing' then it gives me an idea for another thing to do, and next thing I know, its 3pm, i haven't eaten, and my son needs to be picked up.
+- streaks... we should not punish for missing a day, doing the routine should be rewarded, doing it on consectutive days should be another rewarded
+
+Bugs
+- Ui moves around a lot when showing mirco break screens - the bear animation disappears and everything moves up
+- the micro break comment is never shown back to me to help remember my train of thought
+- Project task status is causing the issue for the wrong status being shown in the todo list.
+- A micro break warning popup appeared during a self activated micro break
+- Stats > Progress > set up blocked URL links to a webpage, not the location in the app to block them
+- extending the session timer after it completes has no recalection of the session just completed, timer is wrong
+- settings has its own geek mode and normal mode - unrelated to the focus session mode...
+- tutorials are hidden and outdated
+- noticing patterns. I have never completed an evening routine. Why? because I only use focus bear app on the PC. I haven't set it up on my phone. Why not detect this and offer a guide to set it up. 
+- calendars - adding one makes the add button disappear 
+- wording is inconsistent. snooze seems like a few minutes delay, postpone should be used here or 'change due date'
+- I accidently removed the task from the seesion on my phone. it still appears on my PC
+
 
 bit of task syncing issues in the focus session
+
+internaltest+paul2737838467@focusbear.io
+
+opal onboarding
+
+=== NEW BUILD ===
+Break page
+- break settings and add break activity bring up the same thing. Is there a reason for settings to bring up breaks activities?
+- add break activity changes to start break. I clicked it thinking I was going to add another acitivity. Had no way to get out the start break page.
+- 'resume automatic breaks for this session' - this should appear in the focus session
+
+Focus Session page
+- i started a session. It asked me about not having set up a strictness level and how the AI will prompt me a lot. This is not needed for the first session. Let the user start using it.
+- the app minimised when the session started. was very unexpected and jarring
+- I like the orange border glow
+- ending the session has better options. 5 minute break and habit break. it should have an option to just close the page. it can make the user feel like they have to take a break. maybe they want to stop using the app for a few minutes. previously it asked if the user wanted to extend the focus session or start a new one. I think it should never extend, it had a very bugs with this option.
+- can add events - new? - focus bear has a calendar? - cool feautre. I want to explore this
+
+Help & Support
+- Is the chat with Focus Bear new? it should be more accessible. 
+
+Microbreak pop up
+- new skip button - i like
+- the whiteout is very 'in your face' - needs multiple options for the user to choose from. Maybe expand on the orange border glow idea
+
+Tools - Locked page
+- needs a progress bar with clear objectives and rewards
+- 8 focus tools to be unlocked - rewards: todo list and music - requirement: do focus session (can end session early)
+	- tasks can still be added via focus session active tasks. lock this until todo list is unlocked
+- 6 focus tools to be unlocked - rewards: stats, time tracker and late no more - requirement: add calendar
+	- what if user does not have a calendar? does progression lock?
+	- why offer the user the option to go to the day plan to conenct the calendar when there is a connect your calendar button
+		- both buttons take the user to the same external website. there is no mention that the buttons will do this
+
+Todo List
+- i could add a task via the focus session active task area even though this feature is locked.
+- the board option is gone? or is that only in projects?
+- new task and new project buttons should be in relative similar places. It doesnt make sense that the optimal position for this type of button would moves
+
+Unlocking Tools
+- having a strict order of the tasks to complete to unlock works against the user. feels like they are forced to do things instead of letting their own curiousity explore the application
+- needs to be like Path of Exiles achievements and rewards system.
+	- the system has a reward bar - it has breakpoints for rewards
+		- poe has 40 achievements with rewards at 8, 14, etc. I think the last one is at 36. This way the player can choose which achievements to complete and not be forced into completing all of them to get the rewards
+	- each achievement adds one point to the completion count
+		- all achievements reward the same amount - creates freedom for the user to choose which they want to do
+		- many just happen naturally by playing the game
+	- clear progression and rewards laid out
+		- kiracs vault works even better for this visually
+	- in short
+		- achievements reward points for progress
+		- rewards easy to see
+		- no order of achievements to complete
+
+Bear and Hats
+- i like this idea
+	- hats can unlock distracting sites/apps
+		- maybe there is a time limit or a hat per minute rate
+	- hats are earned by focus time duration
+		- you cant really award hats from tasks, they are set by the user, nothing will stop them from setting an easy task as something hard to exploit the hats
+		- focus duration is good, in a school setting, there can be a rate set by people of authority
+		- rate should be set as both rewarded during focus session and then distraction sites/apps should have multipliers depending on how distracting they are
+	- hats are earned by completing habits
+		- what is stopping a user from saying they completed a habit when they havent
+		- maybe limit the hat rewards to timed habits that are completed live
+	
