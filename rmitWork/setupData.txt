@@ -37,26 +37,8 @@ internaltest+paul2737838467@focusbear.io
 opal onboarding
 
 === NEW BUILD ===
-Break page
-- break settings and add break activity bring up the same thing. Is there a reason for settings to bring up breaks activities?
-- add break activity changes to start break. I clicked it thinking I was going to add another acitivity. Had no way to get out the start break page.
-- 'resume automatic breaks for this session' - this should appear in the focus session
 
-Focus Session page
-- i started a session. It asked me about not having set up a strictness level and how the AI will prompt me a lot. This is not needed for the first session. Let the user start using it.
-- the app minimised when the session started. was very unexpected and jarring
-- I like the orange border glow
-- ending the session has better options. 5 minute break and habit break. it should have an option to just close the page. it can make the user feel like they have to take a break. maybe they want to stop using the app for a few minutes. previously it asked if the user wanted to extend the focus session or start a new one. I think it should never extend, it had a very bugs with this option.
-- can add events - new? - focus bear has a calendar? - cool feautre. I want to explore this
-
-Help & Support
-- Is the chat with Focus Bear new? it should be more accessible. 
-
-Microbreak pop up
-- new skip button - i like
-- the whiteout is very 'in your face' - needs multiple options for the user to choose from. Maybe expand on the orange border glow idea
-
-Tools - Locked page
+Tools - Locked page - already discussed with Jeremy 
 - needs a progress bar with clear objectives and rewards
 - 8 focus tools to be unlocked - rewards: todo list and music - requirement: do focus session (can end session early)
 	- tasks can still be added via focus session active tasks. lock this until todo list is unlocked
@@ -64,13 +46,12 @@ Tools - Locked page
 	- what if user does not have a calendar? does progression lock?
 	- why offer the user the option to go to the day plan to conenct the calendar when there is a connect your calendar button
 		- both buttons take the user to the same external website. there is no mention that the buttons will do this
+		- why not take the user to the 'Late No More' page and use it as a chance to give them an overlay tutorial on the feature and add the calender that way
 
 Todo List
-- i could add a task via the focus session active task area even though this feature is locked.
-- the board option is gone? or is that only in projects?
-- new task and new project buttons should be in relative similar places. It doesnt make sense that the optimal position for this type of button would moves
+- already discussed with Jeremy - i could add a task via the focus session active task area even though this feature is locked.
 
-Unlocking Tools
+Unlocking Tools - already discussed with Jeremy 
 - having a strict order of the tasks to complete to unlock works against the user. feels like they are forced to do things instead of letting their own curiousity explore the application
 - needs to be like Path of Exiles achievements and rewards system.
 	- the system has a reward bar - it has breakpoints for rewards
@@ -84,16 +65,52 @@ Unlocking Tools
 		- achievements reward points for progress
 		- rewards easy to see
 		- no order of achievements to complete
-
-Bear and Hats
-- i like this idea
-	- hats can unlock distracting sites/apps
-		- maybe there is a time limit or a hat per minute rate
-	- hats are earned by focus time duration
-		- you cant really award hats from tasks, they are set by the user, nothing will stop them from setting an easy task as something hard to exploit the hats
-		- focus duration is good, in a school setting, there can be a rate set by people of authority
-		- rate should be set as both rewarded during focus session and then distraction sites/apps should have multipliers depending on how distracting they are
-	- hats are earned by completing habits
-		- what is stopping a user from saying they completed a habit when they havent
-		- maybe limit the hat rewards to timed habits that are completed live
 	
+	
+	
+	
+New Achievements
+Title						| Task Required 							| Level (if any)
+Bear Cub					| Create an account 						| 1
+I can Focus 				| Complete your first focus session 		| 1
+Stay Away					| Add a website to your block list 			| 1
+Allow Me					| Add a website to your allow list			| 1
+Something to do 			| Add a task to the To Do List				| 1
+Well Deserved				| Take your first break						| 1
+
+No Games					| Add Minesweeper to your blocked apps		| 2
+Bear Talk					| Chat with Focus Bear						| 2
+In the Zone					| Set up a blocking schedule				| 2
+Thinking of the future		| Add a project								| 2
+Good Start					| Add a habit to the Morning Routine		| 2
+Let's Chill					| Add a habit to the Evening Routine		| 2
+
+It's a Date					| Connect your calendar to Focus Bear
+Wind Down					| Complete all habits in your Evening Routine
+Fresh Morning				| Complete all habits in your Morning Routine
+Late No More				| Complete your first meeting
+Chill Vibes					| Download and listen to a Focus song
+Showing Off					| Purchase and connect a focus button
+I'm Hooked					| Obtain a subscription
+It's bugging me				| Report a bug
+Week Streak					| Log on 7 days in a row
+Consistency					| Log on 30 days in a row
+Keep at it					| Log on 25 times
+Thirsty Camel				| Drink 20 litres
+Don't Break Me				| Complete 20 breaks
+Goal Setter					| Create 20 tasks
+Goal Achiever				| Complete 20 tasks
+							| Complete 50/100/200 tasks
+							| Complete 50/100/200 breaks
+							| Log on 50/100/200 times
+							| Log on 50/100/200 days in a row
+Got the flow				| Skip a break
+Never miss a beat			| Don't skip a break for a week
+Good Listening				| Listen to 1 hour of focus music
+							| Listen to 2/5/10/25/50/100 hours of focus music
+							| Spend 20 hats
+							| Spend 50/100/250/500/1000 hats
+							| Obtain 20 hats
+							| Obtain 50/100/250/500/100 hats
+							| Get your first hat
+
