@@ -113,4 +113,17 @@ Good Listening				| Listen to 1 hour of focus music
 							| Obtain 20 hats
 							| Obtain 50/100/250/500/100 hats
 							| Get your first hat
+							| Use the board view in the To Do page
+							| Use the Eisenhower Matrix
+							| Convert a Brain Dump to tasks using AI
+							| Leave a note before the break
+							| Connect your PC and phone
+							| Set your first event
+							| Join Discord
+							| Report 20 bugs
+							| Complete a Focus Session by letting the timer run out
+							| Extend a Focus Session
+							| Spend a total of 1/5/10/25/50/100/250/500/1000 hours in a Focus Session
+							| Check out the Leaderboard
+
 
