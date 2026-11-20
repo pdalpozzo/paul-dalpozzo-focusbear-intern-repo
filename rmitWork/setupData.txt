@@ -5,36 +5,7 @@ Version:
 Laptop Version:
 4.1.259.1
 
-Focus Bear Feedback
-Ideas
-- the micro break 'whiteout' is so bright, and doesnt handle multiple screens
-- stats > Productivity is very bland. what is the point of this page?
-- quitting the app feels like a guilt trip, I should be able to pause the reminders and just enjoy the day
-- leaderboard should show my position - even if I am out of the top 20, my status should be shown below with the position and scores.
-- There are no real identity to the tasks. Like I have work (intern) stuff and I have self projects. I should be able to set hard dates for both, but my priority should be work during work hours. And my work tasks should lose priority outside of work hours. maybe a catergory system like 'work', 'play', 'hobby', 'chore', 'maintenance'
-- I want to have a reminder to have a lunch break. I get so into the flow of work that I forget to stop. Sometimes, I see the time and im like 'another 10 minutes, ill just do this little thing' then it gives me an idea for another thing to do, and next thing I know, its 3pm, i haven't eaten, and my son needs to be picked up.
-- streaks... we should not punish for missing a day, doing the routine should be rewarded, doing it on consectutive days should be another rewarded
-
-Bugs
-- Ui moves around a lot when showing mirco break screens - the bear animation disappears and everything moves up
-- the micro break comment is never shown back to me to help remember my train of thought
-- Project task status is causing the issue for the wrong status being shown in the todo list.
-- A micro break warning popup appeared during a self activated micro break
-- Stats > Progress > set up blocked URL links to a webpage, not the location in the app to block them
-- extending the session timer after it completes has no recalection of the session just completed, timer is wrong
-- settings has its own geek mode and normal mode - unrelated to the focus session mode...
-- tutorials are hidden and outdated
-- noticing patterns. I have never completed an evening routine. Why? because I only use focus bear app on the PC. I haven't set it up on my phone. Why not detect this and offer a guide to set it up. 
-- calendars - adding one makes the add button disappear 
-- wording is inconsistent. snooze seems like a few minutes delay, postpone should be used here or 'change due date'
-- I accidently removed the task from the seesion on my phone. it still appears on my PC
-
-
-bit of task syncing issues in the focus session
-
 internaltest+paul2737838467@focusbear.io
-
-opal onboarding
 
 === NEW BUILD ===
 
@@ -66,8 +37,128 @@ Unlocking Tools - already discussed with Jeremy
 		- rewards easy to see
 		- no order of achievements to complete
 	
-	
-	
+
+The idea behind the unlocking tools isn't about the levels or achievements, it's about teaching the user about the features they can use. This gives us some clear rules to follow when setting the goals for the next unlock.
+1. There must be more than one goal for each feature
+2. The goal must be possible with the feature that is unlocked
+3. The goal must be useful for the user to know
+
+Consider the focus sessions. What would the user find useful? What must they know?
+- how to start a session
+- how to set the timer
+- how to enable breaks - not achieveable unless habits have been done
+- how to end a session
+- how to set an active task - not achieveable unless they have set a task
+
+This gives us 5 possible goals. 2 have conditions that the user might not be aware of yet. 3 are must know and exclusive to the focus session. Are the exclusive goals enough to consider the user knows how to use the focus session? I think so.
+
+But do we want to restrict the user to only those 3 goals? no. Let's give consider that they can complete any 3 of the 5 to understand a focus session. This gives us our first achievement.
+
+Learn Focus Sessions by completing any 3 of these goals
+- start a focus session
+- change the timer of a focus session
+- enable breaks before starting a focus session
+- end a focus session
+- assign an active task during a focus session
+
+What do you get for completing this achievement? You unlock the next feature. So let's zoom out. What features/tools do we have to offer, which should be unlocked at the start and which order should we give them to the user. Should we allow the user to select the tool they want?
+Tools
+- Focus session 
+- Blocking 
+- Micro Breaks
+- To do list 
+- Habits 
+- Block schedules 
+- Routines 
+- Focus music 
+- Day Plan
+- Notes
+- Revise
+- Stats
+- Late No More
+
+Focus session is a must have. Jeremy would consider blocking to be a must have. Breaks are a must have as well, but we cannot have breaks unless we have habits. This makes Habits a must have. This is too much to start off. The issue here is that habits are a big step in learning, but so much relies on them. We need to offer a break without habits. It should be possible for the user to just have a 2 minute break where the PC is locked and no habits exist to guide them. 
+
+Timed Micro Breaks unlocks
+	- Habits unlocks
+		- Routines
+		- Day Plan
+	- Micro Breaks
+Focus Session unlocks 
+	- To Do List unlocks 
+		- Notes
+		- Revise
+	- Add Calendar unlocks
+		- Late No More 
+	- Focus Music
+Blocking unlocks
+	- Block Schedule
+80%ish complete the above unlocks
+	- Stats
+	- everything else
+
+We can make the 80% mark work by awarding a point to each achievement. Then at 8 or 9 points we just unlock everything. There are 14 points in total. But I think 8 or 9 is a good place to unlock everything. 
+
+With this planned out we have our starting features and we have a path to unlock all features
+Starts with:
+- Non-Habit micro breaks
+- Focus Session
+- Blocking
+
+So now let's work on what is needed to consider learning that feautre. We already have the focus session. Let's use this as a guide to complete the list
+
+Learn Focus Sessions by completing any 3 of these goals | Unlocks To Do List, Add Calendar and Focus Music | 1 point
+- start a focus session
+- change the timer of a focus session
+- enable breaks before starting a focus session
+- end a focus session
+- assign an active task during a focus session
+
+Learn Timed Micro Breaks | Unlocks Habits and Micro Breaks | 1 point
+- Complete you first timed micro break
+
+Learn Blocking and Allowing by completing all 5 of these goals | Unlocks Block Schedule | 1 point
+- add a website to the Super Distracting block list
+- add an app to the Deep Work block list
+- add a website to the Deep Work allow list
+- add an app to the Free Time allow list
+- create a new block type
+
+Connect your account to your calendar | Unlocks Late No More | 1 point
+- connect the calendar to your Focus Bear account
+
+Learn Late No More | 1 point
+- set a meeting
+- join a meeting
+
+Learn Focus Music | 1 point
+- download and listen to a song in the Focus Music playlist
+
+Learn Micro Breaks by completing 3 of these goals | 1 point
+- add a habit to you micro break
+- complete 3 micro breaks with at least 1 habit
+- complete 3 micro breaks in a single focus session
+- skip a micro break
+
+Learn Block Schedules | 1 point
+
+Learn Habits | Unlocks Routines and Day Plan | 1 point
+
+Learn Routines | 1 point
+
+Learn Day Plan | 1 point
+
+Learn Notes | 1 point
+
+Learn To Do List | Unlocks Revise and Notes | 1 point
+
+Learn Revise | 1 point
+
+Learn Stats
+
+
+
+
 	
 New Achievements
 Title						| Task Required 							| Level (if any)
